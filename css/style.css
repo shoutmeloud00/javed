@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+video{
+	width: 80%;
+	margin-left: 12%;
+}
+#wrapper{
+	width: 100%;
+	height: 600px;
+}
+
+#header{
+	width: 100%;
+	height: 50px;
+	background: black;
+	/*background: black;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#logo{
+	width: 5%;
+	height:100%;
+	float: left;
+	border: 1px solid red;
+}
+
+#logo img{
+	width: 100%;
+	height: 101%;
+}
+#nav{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+
+#nav li{
+	list-style: none;
+	float: left;
+	margin-left: 15%;
+	padding-top: 13px;
+}
+#nav li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#bappa img{
+	margin-bottom: 5%;
+
+}
+#image{
+	margin-left: 5%;
+}
+
+
+
+#content{
+	margin-top: -43%;
+	margin-left: 18%;
+}
+
+#content p{
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	margin-top: 1%;
+	color:  rgba(0, 0, 0, 0.5);
+
+}
+#content h1{
+	margin-left: 35%;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#details{
+	margin-top: 6%;
+	margin-left: 20%;
+}
+
+#venue{
+	margin-left: 8%;
+}
+#venue img{
+	float: right;
+	margin-right: 17%;
+	margin-top: -30%;
+}
+#venue p{
+	width: 30%;
+	margin-left: 8%;
+	margin-top: 15%;
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+	background: black;
+	border-radius: 20px;
+}	
+
+#resume h3{
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+
